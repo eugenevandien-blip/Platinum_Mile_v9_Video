@@ -35,7 +35,7 @@ def test_configuration():
             return False
         
         # Check LOOP_VIDEO
-        if froth_module.LOOP_VIDEO == True:
+        if froth_module.LOOP_VIDEO is True:
             print(f"✓ LOOP_VIDEO correctly set to: True")
         else:
             print(f"✗ LOOP_VIDEO is {froth_module.LOOP_VIDEO}, expected True")
@@ -95,7 +95,7 @@ def test_initialization():
             print(f"✗ Detector video_source is {detector.video_source}")
             return False
         
-        if detector.loop_video == True:
+        if detector.loop_video is True:
             print(f"✓ Detector loop_video set correctly")
         else:
             print(f"✗ Detector loop_video is {detector.loop_video}")

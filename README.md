@@ -61,8 +61,8 @@ pip install opencv-python numpy
 
 The script has been modified to:
 - Use video file input instead of camera (line 13: `VIDEO_PATH`)
-- Enable automatic video looping (line 16: `LOOP_VIDEO = True`)
-- Handle end-of-video by resetting to frame 0 (lines 123-128)
+- Enable automatic video looping (line 17: `LOOP_VIDEO = True`)
+- Handle end-of-video by resetting to frame 0 (lines 158-167)
 - Maintain all original froth detection functionality
 
 ## Output

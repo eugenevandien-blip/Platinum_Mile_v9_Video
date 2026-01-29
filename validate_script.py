@@ -66,7 +66,7 @@ def validate_script():
     # Validate LOOP_VIDEO
     print("\nTesting LOOP_VIDEO configuration:")
     if loop_video_found:
-        if loop_video_value == True:
+        if loop_video_value is True:
             print(f"✓ LOOP_VIDEO = {loop_video_value}")
             print(f"  Video looping is enabled")
         else:
